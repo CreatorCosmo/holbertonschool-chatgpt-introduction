@@ -59,7 +59,7 @@ class Minesweeper:
             self.print_board()
             if self.safe_cells == 0:
                 self.print_board(reveal=True)
-                print("Congratulations! You've cleared all the mines.")
+                print("Congratulations! You've won the game.")
                 break
             try:
                 x = int(input("Enter x coordinate: "))
